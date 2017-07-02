@@ -1,0 +1,5 @@
+*.csv
+*.html
+*.htm
+processar.py
+html2csv.py
