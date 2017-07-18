@@ -113,6 +113,6 @@ ENTRADA:
     - Grupo do participante
 '''
 
-html = file2string("participantes.em0006.html")
-tabela = string2tabela(html,"progcomp2017.2","student","eci0007.1")
-tabela2csv(tabela,"participantes.csv")
+#html = file2string("participantes.em0006.html")
+#tabela = string2tabela(html,"progcomp2017.2","student","eci0007.1")
+#tabela2csv(tabela,"participantes.csv")

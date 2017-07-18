@@ -6,9 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>374</width>
-    <height>159</height>
+    <width>452</width>
+    <height>210</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="windowTitle">
    <string>Conversor SIGAA para CSV</string>
@@ -22,7 +28,7 @@
      <rect>
       <x>10</x>
       <y>40</y>
-      <width>241</width>
+      <width>301</width>
       <height>25</height>
      </rect>
     </property>
@@ -36,16 +42,21 @@
       <height>16</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+     </font>
+    </property>
     <property name="text">
-     <string>Nome do Arquivo</string>
+     <string>HTML dos participantes</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnConverter">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>70</y>
-      <width>91</width>
+      <x>140</x>
+      <y>130</y>
+      <width>131</width>
       <height>27</height>
      </rect>
     </property>
@@ -56,14 +67,70 @@
    <widget class="QPushButton" name="btnSelecionar">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>320</x>
       <y>40</y>
       <width>91</width>
-      <height>27</height>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
      <string>Selecionar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtCurso">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>211</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>ID do curso</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>70</y>
+      <width>171</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>Grupo dos participantes</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtGrupo">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>90</y>
+      <width>181</width>
+      <height>25</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -72,13 +139,20 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>374</width>
+     <width>452</width>
      <height>25</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>txtArquivo</tabstop>
+  <tabstop>btnSelecionar</tabstop>
+  <tabstop>txtCurso</tabstop>
+  <tabstop>txtGrupo</tabstop>
+  <tabstop>btnConverter</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
